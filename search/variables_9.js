@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['raw_378',['raw',['../raw_8hpp.html#a3101fa4d6cf7750236e6fec761ede153',1,'GridFormat::Encoding']]],
-  ['rectilineargrid_379',['RectilinearGrid',['../group__Grid.html#ga29f9b6d3cbf5ecba3504e93817759cbf',1,'GridFormat::Concepts']]]
+  ['zlib_0',['zlib',['../group__Compression.html#ga5ab6569ce90654b9d303981486c1d387',1,'GridFormat::Compression']]]
 ];

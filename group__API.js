@@ -1,38 +1,60 @@
 var group__API =
 [
+    [ "File Formats", "group__FileFormats.html", "group__FileFormats" ],
+    [ "Format Selectors", "group__FormatSelectors.html", null ],
     [ "gridformat.hpp", "gridformat_8hpp.html", null ],
     [ "writer.hpp", "writer_8hpp.html", null ],
-    [ "VTI", "structGridFormat_1_1FileFormat_1_1VTI.html", null ],
-    [ "VTR", "structGridFormat_1_1FileFormat_1_1VTR.html", null ],
-    [ "VTS", "structGridFormat_1_1FileFormat_1_1VTS.html", null ],
-    [ "VTP", "structGridFormat_1_1FileFormat_1_1VTP.html", null ],
-    [ "VTU", "structGridFormat_1_1FileFormat_1_1VTU.html", null ],
-    [ "VTKXMLTimeSeries", "structGridFormat_1_1FileFormat_1_1VTKXMLTimeSeries.html", null ],
-    [ "VTKHDFImage", "structGridFormat_1_1FileFormat_1_1VTKHDFImage.html", null ],
-    [ "VTKHDFImageTransient", "structGridFormat_1_1FileFormat_1_1VTKHDFImageTransient.html", null ],
-    [ "VTKHDFUnstructured", "structGridFormat_1_1FileFormat_1_1VTKHDFUnstructured.html", null ],
-    [ "VTKHDFUnstructuredTransient", "structGridFormat_1_1FileFormat_1_1VTKHDFUnstructuredTransient.html", null ],
-    [ "VTKHDFTransient", "structGridFormat_1_1FileFormat_1_1VTKHDFTransient.html", [
-      [ "from", "structGridFormat_1_1FileFormat_1_1VTKHDFTransient.html#a2f4dd74197319d72dd0cabbdc7d208ea", null ]
-    ] ],
-    [ "VTKHDF", "structGridFormat_1_1FileFormat_1_1VTKHDF.html", [
+    [ "reader.hpp", "reader_8hpp.html", null ],
+    [ "GridFormat::FileFormat::Any", "structGridFormat_1_1FileFormat_1_1Any.html", null ],
+    [ "GridFormat::FileFormat::AnyTimeSeries", "structGridFormat_1_1FileFormat_1_1AnyTimeSeries.html", null ],
+    [ "GridFormat::FileFormat::VTI", "structGridFormat_1_1FileFormat_1_1VTI.html", null ],
+    [ "GridFormat::FileFormat::VTR", "structGridFormat_1_1FileFormat_1_1VTR.html", null ],
+    [ "GridFormat::FileFormat::VTS", "structGridFormat_1_1FileFormat_1_1VTS.html", null ],
+    [ "GridFormat::FileFormat::VTP", "structGridFormat_1_1FileFormat_1_1VTP.html", null ],
+    [ "GridFormat::FileFormat::VTU", "structGridFormat_1_1FileFormat_1_1VTU.html", null ],
+    [ "GridFormat::FileFormat::VTKXMLTimeSeries< VTX >", "structGridFormat_1_1FileFormat_1_1VTKXMLTimeSeries.html", null ],
+    [ "GridFormat::FileFormat::VTKHDFImage", "structGridFormat_1_1FileFormat_1_1VTKHDFImage.html", null ],
+    [ "GridFormat::FileFormat::VTKHDFImageTransient", "structGridFormat_1_1FileFormat_1_1VTKHDFImageTransient.html", null ],
+    [ "GridFormat::FileFormat::VTKHDFUnstructured", "structGridFormat_1_1FileFormat_1_1VTKHDFUnstructured.html", null ],
+    [ "GridFormat::FileFormat::VTKHDFUnstructuredTransient", "structGridFormat_1_1FileFormat_1_1VTKHDFUnstructuredTransient.html", null ],
+    [ "GridFormat::FileFormat::VTKHDFTransient", "structGridFormat_1_1FileFormat_1_1VTKHDFTransient.html", null ],
+    [ "GridFormat::FileFormat::VTKHDF", "structGridFormat_1_1FileFormat_1_1VTKHDF.html", [
       [ "with", "structGridFormat_1_1FileFormat_1_1VTKHDF.html#ac3dac0ceb20230e174643ba2cf330215", null ]
     ] ],
-    [ "PVD", "structGridFormat_1_1FileFormat_1_1PVD.html", [
-      [ "piece_format", "structGridFormat_1_1FileFormat_1_1PVD.html#ae737cfa380e759119b11c3d85d36b645", null ]
+    [ "GridFormat::FileFormat::PVD< PieceFormat >", "structGridFormat_1_1FileFormat_1_1PVD.html", null ],
+    [ "GridFormat::FileFormat::PVDClosure", "structGridFormat_1_1FileFormat_1_1PVDClosure.html", null ],
+    [ "GridFormat::FileFormat::TimeSeriesClosure", "structGridFormat_1_1FileFormat_1_1TimeSeriesClosure.html", null ],
+    [ "GridFormat::Writer< G >", "classGridFormat_1_1Writer.html", [
+      [ "Writer", "classGridFormat_1_1Writer.html#a21c5ead0db253c1a821d068ce8a9c8e2", null ],
+      [ "Writer", "classGridFormat_1_1Writer.html#a512931ccb35c0338b94af7b819548ceb", null ],
+      [ "Writer", "classGridFormat_1_1Writer.html#a602e4bbc66a2304ac89e0cb58341afcd", null ],
+      [ "Writer", "classGridFormat_1_1Writer.html#a6b1a5666cab669b42b81a06f7502b971", null ],
+      [ "Writer", "classGridFormat_1_1Writer.html#ace6ff6a97c61c66858fccb3b018bb5e1", null ],
+      [ "Writer", "classGridFormat_1_1Writer.html#ace6ff6a97c61c66858fccb3b018bb5e1", null ],
+      [ "clear", "classGridFormat_1_1Writer.html#a8063585db73e2c047ac567a0b83ec22c", null ],
+      [ "copy_fields", "classGridFormat_1_1Writer.html#a61832042c0d72ff457f69bad4a45775b", null ],
+      [ "grid", "classGridFormat_1_1Writer.html#a7b2d2f15b874cc2958df8c4abb922998", null ],
+      [ "remove_cell_field", "classGridFormat_1_1Writer.html#a78b1f2209c24a3c7da50e65041034bcd", null ],
+      [ "remove_meta_data", "classGridFormat_1_1Writer.html#a4d7c7e81634cbb9f0e8fc3304e4de7db", null ],
+      [ "remove_point_field", "classGridFormat_1_1Writer.html#ae0ffe4fb8ea43b67baf108a8bbc55763", null ],
+      [ "set_cell_field", "classGridFormat_1_1Writer.html#a7b6e4702677c4d6c3a1b4f431ccf6d03", null ],
+      [ "set_cell_field", "classGridFormat_1_1Writer.html#ad676b0b617166ef873c610805911997f", null ],
+      [ "set_ignore_warnings", "classGridFormat_1_1Writer.html#a2877c87046a2cbc27d793107ab3894e4", null ],
+      [ "set_meta_data", "classGridFormat_1_1Writer.html#aceba61d4867ddb47d0286827fae8cfc1", null ],
+      [ "set_point_field", "classGridFormat_1_1Writer.html#a1a657b4cb84b4a5e0921d69912a3f9c3", null ],
+      [ "set_point_field", "classGridFormat_1_1Writer.html#a595ed3c719b017f3ffb8a9197c2c1f69", null ],
+      [ "write", "classGridFormat_1_1Writer.html#a911476d9e8252b4dc0bfa1a36589a2a8", null ],
+      [ "write", "classGridFormat_1_1Writer.html#a21dcdaabcf4880f16c96e82f70737e81", null ],
+      [ "writer_options", "classGridFormat_1_1Writer.html#a224a27fb565922aef1db0e0c8e88aeae", null ],
+      [ "cell_fields", "classGridFormat_1_1Writer.html#ae0ad42b5ba01d3437e543394058c052d", null ],
+      [ "meta_data_fields", "classGridFormat_1_1Writer.html#a20c677573e50e2d2bd0bd14e2a8d5193", null ],
+      [ "point_fields", "classGridFormat_1_1Writer.html#a8ff537d09be2f0c5782873a026048c24", null ]
     ] ],
-    [ "PVDClosure", "structGridFormat_1_1FileFormat_1_1PVDClosure.html", [
-      [ "operator()", "structGridFormat_1_1FileFormat_1_1PVDClosure.html#a055461f32a33616ae24aa16db0e3f8ab", null ]
+    [ "GridFormat::Reader", "classGridFormat_1_1Reader.html", [
+      [ "with_opened", "classGridFormat_1_1Reader.html#a9c58539814a832f2a6a47ab13912238f", null ],
+      [ "with_opened", "classGridFormat_1_1Reader.html#a1417ccc76a987c766a474e49c200dc5b", null ]
     ] ],
-    [ "TimeSeriesClosure", "structGridFormat_1_1FileFormat_1_1TimeSeriesClosure.html", [
-      [ "operator()", "structGridFormat_1_1FileFormat_1_1TimeSeriesClosure.html#ab49a346abe3a1d04604d066d79bfd4e9", null ]
-    ] ],
-    [ "Writer", "classGridFormat_1_1Writer.html", [
-      [ "requires", "classGridFormat_1_1Writer.html#a1ca0765c3f8cd7eb0150aa3bdbe0272c", null ],
-      [ "_time_series_writer", "classGridFormat_1_1Writer.html#a768ed858e9238ddb8b8d81c7659833d2", null ],
-      [ "grid", "classGridFormat_1_1Writer.html#a63478dabf27c1784b2c0468b317c0d41", null ],
-      [ "grid", "classGridFormat_1_1Writer.html#a264e9d211a53ca773e62578fba7ac0df", null ]
-    ] ],
-    [ "default_for", "group__API.html#ga19ce8850e7c649e701a6cab52a3ad5a5", null ],
-    [ "default_for", "group__API.html#gaa73c41aeab2861bb23872f1498cb0eb4", null ]
+    [ "GridFormat::convert", "group__API.html#gaa262c55af3c1c39cf82bded8f77db38c", null ],
+    [ "GridFormat::Formats::default_for", "group__API.html#ga19ce8850e7c649e701a6cab52a3ad5a5", null ],
+    [ "GridFormat::Formats::default_for", "group__API.html#gaa73c41aeab2861bb23872f1498cb0eb4", null ]
 ];

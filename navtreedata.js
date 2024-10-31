@@ -25,22 +25,12 @@
 var NAVTREE =
 [
   [ "GridFormat", "index.html", [
-    [ "Introduction", "index.html", [
-      [ "Quick Start", "index.html#quick-start", null ],
-      [ "Installation", "index.html#installation", [
-        [ "Dependencies", "index.html#dependencies", null ]
-      ] ],
-      [ "Compatibility with user-defined grids", "index.html#compatibility-with-userdefined-grids", null ],
-      [ "Predefined traits", "index.html#predefined-traits", null ],
-      [ "Contribution Guidelines", "index.html#contribution-guidelines", [
-        [ "Development and test suite", "index.html#development-and-test-suite", null ]
-      ] ],
-      [ "License", "index.html#license", null ]
-    ] ],
+    [ "Introduction", "index.html", "index" ],
     [ "API", "group__API.html", null ],
     [ "Grid Traits", "grid-traits.html", null ],
     [ "Grid Concepts", "grid-concepts.html", null ],
     [ "Modules", "modules.html", "modules" ],
+    [ "Concepts", "concepts.html", "concepts" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -48,20 +38,23 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
-        [ "Typedefs", "functions_type.html", null ]
+        [ "Variables", "functions_vars.html", null ],
+        [ "Typedefs", "functions_type.html", null ],
+        [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ]
-    ] ]
+    ] ],
+    [ "Documentation for other versions", "^https://github.com/dglaeser/gridformat/releases", null ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
 "annotated.html",
-"dir_ccba52d8fa730bec2eeb71410e3b9ab7.html",
-"structGridFormat_1_1WriterFactory_3_01FileFormat_1_1VTR_01_4.html"
+"hdf__unstructured__grid__writer_8hpp.html",
+"structGridFormat_1_1WriterOptions.html#a95f072273a80a5eb26b56ac708a710c2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

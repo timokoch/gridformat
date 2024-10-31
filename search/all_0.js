@@ -1,16 +1,19 @@
 var searchData=
 [
-  ['api_0',['API',['../group__API.html',1,'']]],
-  ['appended_1',['appended',['../vtk_2common_8hpp.html#a7b002a57221e3a33fa4cabf186b5cf6d',1,'GridFormat::VTK::DataFormat']]],
-  ['appended_2',['Appended',['../structGridFormat_1_1VTK_1_1DataFormat_1_1Appended.html',1,'GridFormat::VTK::DataFormat']]],
-  ['appendix_3',['Appendix',['../classGridFormat_1_1VTK_1_1Appendix.html',1,'GridFormat::VTK']]],
-  ['appendix_2ehpp_4',['appendix.hpp',['../appendix_8hpp.html',1,'']]],
-  ['appendixstreamobserver_5',['AppendixStreamObserver',['../classGridFormat_1_1VTK_1_1AppendixStreamObserver.html',1,'GridFormat::VTK']]],
-  ['ascii_6',['ascii',['../ascii_8hpp.html#a150bd54d1e4f1575af983d6b94965cc2',1,'GridFormat::Encoding']]],
-  ['ascii_7',['Ascii',['../structGridFormat_1_1Encoding_1_1Ascii.html',1,'GridFormat::Encoding']]],
-  ['ascii_2ehpp_8',['ascii.hpp',['../ascii_8hpp.html',1,'']]],
-  ['asciiformatoptions_9',['AsciiFormatOptions',['../structGridFormat_1_1AsciiFormatOptions.html',1,'GridFormat']]],
-  ['asciioutputstream_10',['AsciiOutputStream',['../classGridFormat_1_1AsciiOutputStream.html',1,'GridFormat']]],
-  ['asciistring_11',['AsciiString',['../structGridFormat_1_1VTKHDF_1_1AsciiString.html',1,'GridFormat::VTKHDF']]],
-  ['attributes_2ehpp_12',['attributes.hpp',['../attributes_8hpp.html',1,'']]]
+  ['any_0',['Any',['../structGridFormat_1_1FileFormat_1_1Any.html',1,'GridFormat::FileFormat']]],
+  ['anyreaderfactory_1',['AnyReaderFactory',['../classGridFormat_1_1AnyReaderFactory.html',1,'GridFormat']]],
+  ['anytimeseries_2',['AnyTimeSeries',['../structGridFormat_1_1FileFormat_1_1AnyTimeSeries.html',1,'GridFormat::FileFormat']]],
+  ['api_3',['API',['../group__API.html',1,'']]],
+  ['append_5fnull_5fterminator_5fto_5fstrings_4',['append_null_terminator_to_strings',['../structGridFormat_1_1WriterOptions.html#a7e206dfd8f927c7ad1ed379b0430cb89',1,'GridFormat::WriterOptions']]],
+  ['appended_5',['appended',['../vtk_2common_8hpp.html#a7b002a57221e3a33fa4cabf186b5cf6d',1,'GridFormat::VTK::DataFormat']]],
+  ['appended_6',['Appended',['../structGridFormat_1_1VTK_1_1DataFormat_1_1Appended.html',1,'GridFormat::VTK::DataFormat']]],
+  ['appendix_7',['Appendix',['../classGridFormat_1_1VTK_1_1Appendix.html',1,'GridFormat::VTK']]],
+  ['appendix_2ehpp_8',['appendix.hpp',['../appendix_8hpp.html',1,'']]],
+  ['appendixstreamobserver_9',['AppendixStreamObserver',['../classGridFormat_1_1VTK_1_1AppendixStreamObserver.html',1,'GridFormat::VTK']]],
+  ['ascii_10',['ascii',['../group__Encoding.html#ga150bd54d1e4f1575af983d6b94965cc2',1,'GridFormat::Encoding']]],
+  ['ascii_11',['Ascii',['../structGridFormat_1_1Encoding_1_1Ascii.html',1,'GridFormat::Encoding']]],
+  ['ascii_2ehpp_12',['ascii.hpp',['../ascii_8hpp.html',1,'']]],
+  ['asciiformatoptions_13',['AsciiFormatOptions',['../structGridFormat_1_1AsciiFormatOptions.html',1,'GridFormat']]],
+  ['asciioutputstream_14',['AsciiOutputStream',['../classGridFormat_1_1AsciiOutputStream.html',1,'GridFormat']]],
+  ['attributes_2ehpp_15',['attributes.hpp',['../attributes_8hpp.html',1,'']]]
 ];
